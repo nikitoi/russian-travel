@@ -1,0 +1,5 @@
+@media (max-width: 550px) {
+  .place__text_size_l {
+    width: 95%;
+  }
+}

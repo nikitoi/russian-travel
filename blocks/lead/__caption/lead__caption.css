@@ -1,0 +1,16 @@
+.lead__caption {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  align-self: start;
+  font-size: 10px;
+  line-height: 14px;
+  margin: 8px calc((100% - 984px)/2) 0;
+  width: 984px;
+}
+
+@media (max-width: 1024px) {
+  .lead__caption {
+    width: inherit;
+    margin: 8px 0 0;
+  }
+}

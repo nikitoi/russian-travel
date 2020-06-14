@@ -1,0 +1,15 @@
+.intro__list {
+  width: 690px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .intro__list {
+    width: inherit;
+  }
+}

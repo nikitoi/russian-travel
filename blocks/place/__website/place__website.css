@@ -1,0 +1,12 @@
+.place__website {
+  font-size: 12px;
+  line-height: 12px;
+  align-self: end;
+  margin: 0;
+}
+
+@media (max-width: 550px) {
+  .place__website {
+    display: none;
+  }
+}
