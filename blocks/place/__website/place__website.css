@@ -1,6 +1,6 @@
 .place__website {
-  font-size: 12px;
-  line-height: 12px;
+  display: flex;
+  flex-direction: column;
   align-self: end;
   margin: 0;
 }

@@ -4,12 +4,16 @@
 @import url(./__title/cover__title.css);
 
 .cover {
-  margin: 0 48px;
-  box-sizing: border-box;
+  box-sizing: content-box;
+  margin: 0 auto;
+  max-width: 1184px;
+  align-self: center;
+  position: relative;
 }
 
-    @media (max-width: 1024px) {
-      .cover  {
-        margin: 0;
-      }
-    }
+@media (max-width: 1024px) {
+  .cover  {
+    margin: 0;
+    max-width: 100%;
+  }
+}
