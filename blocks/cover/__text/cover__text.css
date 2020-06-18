@@ -1,7 +1,4 @@
 .cover__text {
-  position: absolute;
-  top: 0;
-  left: 0;
   margin: 245px calc((100% - 560px)/2) 0;
   z-index: 3;
 }
